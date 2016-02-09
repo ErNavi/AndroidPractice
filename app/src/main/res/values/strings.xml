@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Navs Academy</string>
+    <string name="top_title">Welcome to Navs Academy</string>
+    <string name="title">Registration Form</string>
+    <string name="txt_fname">First Name</string>
+    <string name="txt_lname">Last Name</string>
+    <string name="txt_email">Email</string>
+    <string name="txt_submit">Submit</string>
+</resources>
