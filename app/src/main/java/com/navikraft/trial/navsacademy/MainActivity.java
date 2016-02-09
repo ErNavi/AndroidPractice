@@ -20,19 +20,13 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void submitOnClickListner() {
-
     Button sub_btn = (Button) findViewById(R.id.btn_submit);
     sub_btn.setOnClickListener(new View.OnClickListener()
-
     {
         @Override
         public void onClick (View v){
-
         Log.d(Log_Tag, "Button Clicked");
-    }
-    }
-
-    );
+    }});
 }
 
 }

@@ -7,5 +7,7 @@
     <dimen name="margin_tv">22dp</dimen>
     <dimen name="margin_tv_top">35dp</dimen>
     <dimen name="margin_btn">16dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="et_height">45dp</dimen>
 
 </resources>

@@ -43,7 +43,8 @@
 
     <EditText
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="@dimen/et_height"
+        android:inputType="textPersonName"
         android:id="@+id/et_fname"
         android:layout_alignBottom="@id/tv_fname"
         android:layout_toRightOf="@+id/tv_fname"
@@ -64,7 +65,8 @@
 
     <EditText
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="@dimen/et_height"
+        android:inputType="textPersonName"
         android:id="@+id/et_lname"
         android:layout_alignBottom="@id/tv_lname"
         android:layout_toRightOf="@+id/tv_fname"
@@ -85,7 +87,7 @@
 
     <EditText
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="@dimen/et_height"
         android:inputType="textEmailAddress"
         android:ems="10"
         android:id="@+id/et_email"
@@ -102,5 +104,7 @@
         android:layout_alignParentBottom="true"
         android:layout_alignParentRight="true"
         android:layout_alignParentEnd="true"/>
+
+
 
 </RelativeLayout>
