@@ -1,21 +1,20 @@
 package com.navikraft.trial.navsacademy;
 
-import android.content.DialogInterface;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 
-public class MainActivity extends AppCompatActivity {
+public class Signup extends AppCompatActivity {
 
-    public static final String Log_Tag = "MainActivity";
+    public static final String Log_Tag = "Signup";
 
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.activity_signup);
         submitOnClickListner();
     }
 
