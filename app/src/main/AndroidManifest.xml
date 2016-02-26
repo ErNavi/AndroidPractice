@@ -13,20 +13,26 @@
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".Signup"
+        <activity
+            android:name=".Signup"
             android:label="Sign Up"
-            android:parentActivityName=".SignIn">
-
-            </activity>
-
-        <activity android:name=".DashBoard"
+            android:parentActivityName=".SignIn" />
+        <activity
+            android:name=".ChooseImg"
+            android:label="Sign Up"
+            android:parentActivityName=".SignIn" />
+        <activity
+            android:name=".DashBoard"
             android:label="Dash Board"
-            android:parentActivityName=".SignIn"/>
-
-        <activity android:name=".PasswordRecovery"
+            android:parentActivityName=".SignIn" />
+        <activity
+            android:name=".ChooseQue"
+            android:label="Choose Questions"
+            android:parentActivityName=".SignIn" />
+        <activity
+            android:name=".PasswordRecovery"
             android:label="Password Manager"
-            android:parentActivityName=".SignIn"/>
-
+            android:parentActivityName=".SignIn" />
         <activity
             android:name=".SignIn"
             android:label="@string/title_activity_sign_in">
@@ -35,8 +41,8 @@
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
-
         </activity>
+
     </application>
 
 </manifest>

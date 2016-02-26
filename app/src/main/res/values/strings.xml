@@ -8,6 +8,19 @@
     <string name="txt_submit">Submit</string>
     <string name="title_activity_login">Login</string>
     <string name="title_activity_password_recover">Password Recover</string>
+    <string name="action_settings">Setting</string>
+    <string name="action_imp">Important</string>
+    <string name="pm_phone">Recover By Phone No.:</string>
+    <string name="pm_email">Recover By Email Id :</string>
+    <string name="pm_dialog_title">Password</string>
+    <string name="pm_dialog_pbtn_text">Done</string>
+    <string name="pm_dialog_nbtn_text">Cancel</string>
+    <string name="dismiss_text">Dismiss</string>
+    <string name="pm_dialog_msg">WOW you have recovered ur password as its this : </string>
+    <!-- Strings related to cm_choose_que -->
+    <string name="cm_choose_que_add">Add</string>
+    <string name="cm_choose_que_edit">Edit</string>
+    <string name="cm_choose_que_delete">Delete</string>
 
     <!-- Strings related to login -->
     <string name="prompt_email">Email</string>

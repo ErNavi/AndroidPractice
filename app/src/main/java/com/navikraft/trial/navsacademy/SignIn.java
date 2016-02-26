@@ -20,4 +20,14 @@ public class SignIn extends AppCompatActivity {
         startActivity(actsignup);
 
     }
+
+    public void forgetPassHanddeler(View view) {
+        Intent forgetpassintent=new Intent(this,PasswordRecovery.class);
+        startActivity(forgetpassintent);
+    }
+
+    public void dashBoardHandler(View view) {
+        Intent dashboardintent=new Intent(this,DashBoard.class);
+        startActivity(dashboardintent);
+    }
 }
